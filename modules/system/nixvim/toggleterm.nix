@@ -1,0 +1,10 @@
+{
+  programs.nixvim.plugins = {
+    toggleterm = {
+      enable = true;
+      settings = {
+        size = 15;
+      };
+    };
+  };
+}
